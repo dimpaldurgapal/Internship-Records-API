@@ -1,0 +1,69 @@
+@baseUrl = http://localhost:3000
+
+### Health
+GET {{baseUrl}}/api/health
+
+### List (pagination)
+GET {{baseUrl}}/api/internships?page=1&limit=3
+
+### Search
+GET {{baseUrl}}/api/internships?q=developer
+
+### Filter by domain
+GET {{baseUrl}}/api/internships?domain=Data%20Science
+
+### Detail (replace 1 with an existing ID)
+GET {{baseUrl}}/api/internships/1
+
+### Create
+POST {{baseUrl}}/api/internships
+Content-Type: application/json
+
+{
+  "title": "React Developer Intern",
+  "company": "Northstar Apps",
+  "domain": "Web Development",
+  "location": "Remote",
+  "duration_months": 3,
+  "stipend": 12000,
+  "description": "Build reusable React user interface components.",
+  "status": "open"
+}
+
+### Full update
+PUT {{baseUrl}}/api/internships/1
+Content-Type: application/json
+
+{
+  "title": "Junior Backend Intern",
+  "company": "CodeSpring",
+  "domain": "Backend Development",
+  "location": "Remote",
+  "duration_months": 4,
+  "stipend": 15000,
+  "description": "Build and test REST APIs.",
+  "status": "open"
+}
+
+### Partial update
+PATCH {{baseUrl}}/api/internships/1
+Content-Type: application/json
+
+{
+  "stipend": 18000
+}
+
+### Delete
+DELETE {{baseUrl}}/api/internships/1
+
+### Validation error example
+POST {{baseUrl}}/api/internships
+Content-Type: application/json
+
+{
+  "title": "A",
+  "company": "",
+  "domain": "Web Development",
+  "location": "Remote",
+  "duration_months": 0
+}

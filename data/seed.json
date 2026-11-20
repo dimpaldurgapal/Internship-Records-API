@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Frontend Developer Intern",
+    "company": "BrightLabs",
+    "domain": "Web Development",
+    "location": "Remote",
+    "duration_months": 3,
+    "stipend": 12000,
+    "description": "Build accessible user interfaces with HTML, CSS and JavaScript.",
+    "status": "open"
+  },
+  {
+    "title": "Data Analyst Intern",
+    "company": "Nexa Analytics",
+    "domain": "Data Science",
+    "location": "Bengaluru, India",
+    "duration_months": 2,
+    "stipend": 10000,
+    "description": "Clean datasets and prepare dashboards for business teams.",
+    "status": "open"
+  },
+  {
+    "title": "UI/UX Design Intern",
+    "company": "PixelCraft Studio",
+    "domain": "UI/UX Design",
+    "location": "Remote",
+    "duration_months": 3,
+    "stipend": 8000,
+    "description": "Create wireframes, prototypes and usability improvements.",
+    "status": "open"
+  },
+  {
+    "title": "Node.js Backend Intern",
+    "company": "CodeSpring",
+    "domain": "Backend Development",
+    "location": "Pune, India",
+    "duration_months": 4,
+    "stipend": 15000,
+    "description": "Develop REST endpoints and work with relational databases.",
+    "status": "open"
+  },
+  {
+    "title": "Digital Marketing Intern",
+    "company": "MarketMinds",
+    "domain": "Marketing",
+    "location": "Remote",
+    "duration_months": 2,
+    "stipend": 5000,
+    "description": "Support content planning, campaign reporting and SEO research.",
+    "status": "open"
+  },
+  {
+    "title": "Cybersecurity Intern",
+    "company": "SecureLayer",
+    "domain": "Cybersecurity",
+    "location": "Hyderabad, India",
+    "duration_months": 4,
+    "stipend": 14000,
+    "description": "Assist with security reviews and vulnerability documentation.",
+    "status": "closed"
+  }
+]
